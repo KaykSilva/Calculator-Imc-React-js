@@ -1,0 +1,64 @@
+.app {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 50px;
+}
+h2 {
+   margin: 10px 0;
+}
+span {
+    margin: 10px 0;
+}
+
+.input-app {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-app input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: #121212;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    padding: 12px 0;
+    text-align: center;
+    font-size: 23px;
+}
+.input-app button{
+    width: 100%;
+    height: 50px;
+    border: 0;
+    background-color: #357aff ;
+    border-radius: 10px;
+    font-size: 26px;
+    color: #fff;
+}
+
+@media (max-width: 375px) { 
+
+h1{
+    font-size: 35px;
+}
+.input-app {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-size: 18px;
+    padding: 0 10px;
+}
+}
